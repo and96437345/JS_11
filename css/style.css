@@ -1,0 +1,31 @@
+.container {
+    padding: 40px;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+
+.form-select {
+    margin-bottom: 30px;
+}
+.btn {
+    margin-bottom: 60px;
+    background-color: #7c7c7c;
+    border: none;
+
+}
+.card__row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.pagination {
+    justify-content: center;;
+}
+.card-row {
+    display: flex;
+}
+.card-selected {
+    flex-direction: row;
+    margin: 50px auto;
+}

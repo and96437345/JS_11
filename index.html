@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="exampleFormControlInput1" class="form-label">Title:</label>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" aria-label="Пример размера поля ввода" aria-describedby="inputGroup-sizing-default">
+            </div>
+            <label for="exampleFormControlInput1" class="form-label">Type:</label>
+            <select class="form-select" aria-label="Пример выбора по умолчанию">
+                <option selected>movie</option>
+                <option value="1">series</option>
+                <option value="2">episode</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+        <div class="card__row">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/doris.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Movie</h5>
+                  <p class="card-text">Hello, my Name is Doris</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2015</li>
+                </ul>
+                <div class="card-body">
+                    <button type="submit" class="btn btn-primary">Details</button>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/doris.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Movie</h5>
+                  <p class="card-text">Hello, my Name is Doris</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2015</li>
+                </ul>
+                <div class="card-body">
+                    <button type="submit" class="btn btn-primary">Details</button>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/doris.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Movie</h5>
+                  <p class="card-text">Hello, my Name is Doris</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2015</li>
+                </ul>
+                <div class="card-body">
+                    <button type="submit" class="btn btn-primary">Details</button>
+                </div>
+              </div>
+        </div>
+        <div class="card-container">
+            <div class="card card-selected" style="width: 18rem;">
+                <img class="card-img-top" src="images/doris.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Film info:</h5>
+                  <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Title:</li>
+                  <li class="list-group-item">Released:</li>
+                  <li class="list-group-item">Genre:</li>
+                  <li class="list-group-item">Country:</li>
+                  <li class="list-group-item">Director:</li>
+                  <li class="list-group-item">Writer:</li>
+                  <li class="list-group-item">Actors:</li>
+                  <li class="list-group-item">Awards:</li>
+                </ul>
+                </div>               
+            </div>
+        </div>
+        
+
+        <nav aria-label="Пример навигации по страницам">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Предыдущая">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Следующая">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+        </nav>
+        
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
