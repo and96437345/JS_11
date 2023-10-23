@@ -9,22 +9,28 @@
 </head>
 <body>
     <div class="container">
-        <form>
+        <form class="search-form">
             <label for="exampleFormControlInput1" class="form-label">Title:</label>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" aria-label="Пример размера поля ввода" aria-describedby="inputGroup-sizing-default">
+                <input type="text" class="form-control" aria-label="Пример размера поля ввода" aria-describedby="inputGroup-sizing-default" placeholder="Введите фильм">
             </div>
             <label for="exampleFormControlInput1" class="form-label">Type:</label>
             <select class="form-select" aria-label="Пример выбора по умолчанию">
-                <option selected>movie</option>
-                <option value="1">series</option>
-                <option value="2">episode</option>
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+                <option value="episode">Episode</option>
             </select>
-            <button type="submit" class="btn btn-primary">Отправить</button>
+            <button type="button" class="btn test btn-primary button">Поиск</button>
         </form>
+
+        <div class="search-results">
+          
+        </div>
+
+
         <div class="card__row">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/doris.jpg" alt="Card image cap">
+                <img class="card-img-top" src="" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Movie</h5>
                   <p class="card-text">Hello, my Name is Doris</p>
@@ -37,7 +43,7 @@
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/doris.jpg" alt="Card image cap">
+                <img class="card-img-top" src="" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Movie</h5>
                   <p class="card-text">Hello, my Name is Doris</p>
@@ -50,7 +56,7 @@
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/doris.jpg" alt="Card image cap">
+                <img class="card-img-top" src="" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Movie</h5>
                   <p class="card-text">Hello, my Name is Doris</p>
@@ -59,13 +65,13 @@
                   <li class="list-group-item">2015</li>
                 </ul>
                 <div class="card-body">
-                    <button type="submit" class="btn btn-primary">Details</button>
+                    <button type="button" class="btn btn-primary">Details</button>
                 </div>
               </div>
         </div>
         <div class="card-container">
             <div class="card card-selected" style="width: 18rem;">
-                <img class="card-img-top" src="images/doris.jpg" alt="Card image cap">
+                <img class="card-img-top" src="" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Film info:</h5>
                   <ul class="list-group list-group-flush">
@@ -106,8 +112,7 @@
         
 
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
